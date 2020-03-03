@@ -6,14 +6,16 @@ style: left
 fa-icon: plug
 ---
 
-# Requirements
+# Getting Started
+On all supported platforms, Windows, Linux and MacOS, the way to begin using F# and Ionide is to install the most recent Long Term Supported version of the .Net Core SDK, install VisualStudio Code and then install the Ionide F# plugin for VisualStudio Code. 
 
-* F# (Windows) - Easiest way to install latest versions of F# on Windows is using [VS Build Tools 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017#build-tools-for-visual-studio-2017). If you use VS 2017, make sure that you've installed workload adding F# support.
+The official step-by-step installation guide for installing F# with Visual Studio Code and Ionide [is here](https://www.microsoft.com/net/core).
 
-* F# (Linux/MacOS) - F# on non-Windows platform is distributed as part of the `mono`. Installation guide and recent version of `mono` can be found on the [project webpage](https://www.mono-project.com/download/stable/) and on the F# Software Foundation ["Use on Linux" page](https://fsharp.org/use/linux/)
+Once you have the required components installed the official getting started with F# in Visual Studio Code instructions [are here](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode). These will walk you through creating your first F# project and writing F# scripts. 
 
-* .Net Core SDK - .Net Core is modern, cross platform implementation of .Net Framework. Ionide is requiring it for set of features such as project modifications or debugging. The core part of SDK is `dotnet` CLI tool that provides easy way to create, build and run F# projects. What's important - the `dotnet` tool can be used also to create applications targeting also Full Framewok (like `net461`). For detailed instructions on installing .Net Core visit [official step-by-step installation guide](https://www.microsoft.com/net/core)
+Once your environment is working you may want to take the [Tour of F#](https://docs.microsoft.com/en-us/dotnet/fsharp/tour).
 
-* VSCode C# plugin (optional) - Ionide's debugging capabilities relies on the debugger provided by Omnisharp team. To get it install [C# extension from VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
 
-* MsBuild 2015 (Windows only, optional) - For old, verbose `.fsproj` files on Windows MsBuild 2015 (14.0) needs to be additionally installed. You can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=48159). However, we highly recommend using new, SDK-based project files.
+
+
+
